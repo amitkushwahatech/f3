@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide
+{
+    display: none;
+}
+#alert
+{
+    background-color: lightgray;
+    color: red;
+    margin: 13px 0 0 13px;
+    font-size: 16px;
+    padding: 11px;
+    border: 1.2px solid darkgray;
+    width: 96%;
+    font-weight: 721;
+}
+
+.Navbar
+{
+    background-color: black;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+
+
+
+#heading
+{
+    margin: 11px 0 0 11px;
+}
+
+input
+{
+    height: 2.8em;
+    padding: 5px;
+    font-size: 15.3px;
+    display: block;
+    margin: 9px 0 0 10px;
+    width: 90%;
+}
+#submit:hover{
+    background-color:lightskyblue;
+    border: none;
+}
+
+#Logout:hover{
+    background-color:lightskyblue;
+    border: none;
+}
+#submit, #Logout
+{
+    margin: 11px 0 0 11px;
+background-color: black;
+    color: white;
+    font-size: 16px;
+    width: 18%;
+    height: 3.2em;
+}
+
+
+.Navbar .right-nav ul li a ,.Navbar .left-nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+
+
+.ParaGraph
+{
+    font-size: 20px;
+    margin: 10px 0 0 10px;   
+}
+.Navbar .right-nav ul li
+{
+    display: inline;
+}
+body{
+    background-color:lightcyan;
+}

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    
+}
+
+/* 1 rem = 16px */
+.container{
+    width:30rem;
+    height: 15rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    font-size: 40px;
+    border-radius: 5px;
+    border:10px dashed yellow;
+    background-color: black;
+    color: white;
+    display:block ;
+    width: 100%;
+    height: 50%;
+}
+button:hover{
+    background-color: yellow;
+    background: teal;
+}
